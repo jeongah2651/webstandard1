@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    
+    <link rel="stylesheet" type="text/css" href="css/reset.css">
+    
+    <!-- 웹 폰트 -->
+    <link href="https://fonts.googleapis.com/css?family=Nanum+Gothic" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Nanum+Brush+Script" rel="stylesheet">
+</head>
+<style>
+    
+/* 컨텐츠 레이아웃 */
+#cont_cont { background-color: #fff; width: 1200px; margin: 30px;} 
+
+/* 컨테이너 */
+.container {width: 1200px; margin: 0 auto;/* background: rgba(255,255,255,0.3); */  }
+
+/* 컨텐츠 박스 요소 width = padding + magin + border */
+#cont_cont h1 { font-size: 15px; }    
+.cont { overflow: hidden; display: block; margin-top: 15px;}
+.cont .column { position: relative;  float: left; width: 300px; height: 400px;  }
+.cont .column .ico_desc {padding-left: 50px; margin: 8px 100px 0 0; font-size: 11px; color: #999999;}
+.cont .column .ico_tit { padding-left: 50px; font-size: 13px; font-weight: 600;}    
+.cont .column .ico_img { display:block;  background: url(img/icon.png); 
+    position: absolute; left: 0; top: 0px; }      
+.cont a.next { position: absolute; float: left; left : 50px; margin-top: 5px; font-size: 10px; border: 1px solid #ccc; padding: 2px;}    
+.cont .col1 .ico_img {width:  41px; height: 43px; background-position: -150px -212px;}    
+.cont .col2 .ico_img {width:  39px; height: 44px; background-position: -150px -255px;}    
+.cont .col3 .ico_img {width:  40px; height: 48px; background-position: -150px -299px;}    
+.cont .col4 .ico_img {width:  38px; height: 48px; background-position: -150px -346px;}    
+
+</style>
+
+
+<body>
+    <div id="cont_cont">
+       <h1><strong>안심 서비스</strong></h1>   
+        <div class="container">
+            <div class="cont">
+                <div class="column col1">
+                    <h3><span class="ico_img ir_pm">아이콘1</span><em class="ico_tit">품질안전보증 서비스</em></h3>
+                    <p class="ico_desc">중고차! 구매 후 고장이 생길까 망설여지십니까? 주행거리와 상관없이 최대 6개월동안 최대 200만원까지 보상합니다.</p>
+                    <a href="#" class="next" title="더보기">더보기＞</a>
+                </div>
+                
+                <div class="column col2">
+                    <h3><span class="ico_img ir_pm">아이콘2</span><em class="ico_tit">실매물 판별 서비스</em></h3>
+                    <p class="ico_desc">중고차, 진짜 존재하는지 확인하고 싶으시죠? 엠파크의 차량입출 시스템을 통해 정확한 정보를 제공해 드립니다.</p>
+                    <a href="#" class="next" title="더보기">더보기＞</a>
+                </div> 
+                <div class="column col3">
+                    <h3><span class="ico_img ir_pm">아이콘3</span><em class="ico_tit">중고차추천 서비스</em></h3>
+                    <p class="ico_desc">중고차 찾기 정말 어려우시죠? 엠파크가 도와드립니다.</p>
+                    <a href="#" class="next" title="더보기">더보기＞</a>
+                </div>
+                <div class="column col4">
+                    <h3><span class="ico_img ir_pm">아이콘4</span><em class="ico_tit">클레임센터 서비스</em></h3>
+                    <p class="ico_desc">중고차 불편한 부분이 생기셨나요? 클레임센터에서 불해소해 드립니다.</p>
+                    <a href="#" class="next" title="더보기">더보기＞</a>
+                </div>       
+            </div>
+        </div>
+    </div>
+    
+                          
+                           
+</body>
+
+</html>
